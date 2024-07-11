@@ -1,10 +1,9 @@
-class multipleFunctions():
+class myfunctions():
     def subfields():
         lists=['Machine Learning','Neural Networks','Vision','Robotics','Speech Processing','Natural Language Processing']
         print("Sub-Fields in AI are:")
         for i in lists:
             print(i)
-    subfields()
 
     
     def OddEven():
@@ -13,7 +12,6 @@ class multipleFunctions():
             print(num,"is Even number")
         else :
             print(num,"is Odd number")
-    OddEven()  
 
     
     def Eligible():
@@ -31,7 +29,6 @@ class multipleFunctions():
               print("NOT ELIGIBLE")
         else:
             print("INVALID GENDER")
-    Eligible()
 
     
     def percentage():
@@ -44,7 +41,7 @@ class multipleFunctions():
         print("Total:",Total)
         percentage=(Total/500)*100
         print("Percentage:",percentage)
-    percentage()
+
     
     def triangle():
         height=int(input("Height:"))
@@ -58,4 +55,4 @@ class multipleFunctions():
         print("Perimeter formula: Height1+Height2+Breadth")
         perimeter=height1+height2+breadth2
         print("Perimeter of Triangle:",perimeter)
-    triangle()
+    
